@@ -83,6 +83,12 @@ img {
 
 .weather-temperature img {
   margin-right: 10px;
-  height: 90px;
+  height: 64px;
   width: 64px;
+}
+
+.weather-temperature strong {
+  color: black;
+  font-size: 64px;
+  font-weight: 400;
 }
