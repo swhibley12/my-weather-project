@@ -86,9 +86,3 @@ img {
   height: 64px;
   width: 64px;
 }
-
-.weather-temperature strong {
-  color: black;
-  font-size: 64px;
-  font-weight: 400;
-}
