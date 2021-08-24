@@ -24,7 +24,7 @@
   <body>
       <div class="container">
           <div class="weather-app">
-<div class="float-left">
+            <div class="overview">
 <h1 id="city">
 </h1>
 <div class="row">
@@ -32,15 +32,22 @@
     </div>
 </div>
     </div>
-</span> 
+    </div> 
 </br>
 
 <ul>
   <li id="date"></li><strong></strong>
   <li id="description"></li>
-  <div class="clearfix">
+  </ul>
+
+  <div class="clearfix weather-temperature">
+    <img 
+    src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+    alt="Clear"
+    id="icon"
+    class="float-left"/>
     <div class="float-left">
-<span class="temperature" id="temperature"></span>
+<strong id="temperature"></strong>
 <span class="units">ºC | <a href="#">ºF</a></span>
     </div>
 </div>
