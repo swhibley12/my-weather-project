@@ -48,6 +48,7 @@ li {
   display: block;
   padding-top: 50px;
   text-align: center;
+  width: min-content;
 }
 
 .row {
@@ -55,10 +56,6 @@ li {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-}
-
-.col-9 {
-  width: 100;
 }
 
 img {
