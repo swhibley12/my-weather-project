@@ -51,10 +51,6 @@ li {
   width: min-content;
 }
 
-.col-9 {
-  width: min-content;
-}
-
 .row {
   display: flex;
   flex-wrap: wrap;
